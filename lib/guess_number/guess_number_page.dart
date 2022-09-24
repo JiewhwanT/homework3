@@ -11,7 +11,7 @@ class MyHomePage extends StatefulWidget {
 
 class _GuessPageState extends State<MyHomePage> {
   var _num = '';
-  var _message = 'ทายเลข 2 ถึง 100';
+  var _message = 'ทายเลข 1 ถึง 100';
 
   Widget _buildNumberButton(int num) {
     return Padding(
