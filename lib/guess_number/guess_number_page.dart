@@ -67,7 +67,7 @@ class _GuessPageState extends State<MyHomePage> {
                 width: 1.0,
               ),
             ),
-            child: Image.asset('assets/images/x.png', width: 25.0, color: Colors.purple),
+            child: Image.asset('assets/images/x.png', width: 20.0, color: Colors.purple),
           )
       ),
     );
@@ -95,7 +95,7 @@ class _GuessPageState extends State<MyHomePage> {
                 width: 1.0,
               ),
             ),
-            child: Image.asset('assets/images/back.png', width: 25.0, color: Colors.purple),
+            child: Image.asset('assets/images/back.png', width: 20.0, color: Colors.purple),
           )
       ),
     );
@@ -131,13 +131,13 @@ class _GuessPageState extends State<MyHomePage> {
           children: [
             Column(
               children: [
-                SizedBox(height: 90.0),
+                SizedBox(height: 80.0),
               ],
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Image.asset('assets/images/guess_logo.png', width: 90.0),
+                Image.asset('assets/images/guess_logo.png', width: 80.0),
                 SizedBox(width: 10.0),
                 Column(
                   children: [
@@ -151,7 +151,7 @@ class _GuessPageState extends State<MyHomePage> {
                 ),
               ],
             ),
-            SizedBox(height: 100.0),
+            SizedBox(height: 60.0),
             Text(_num,
                 style: TextStyle(fontSize: 50.0)),
             SizedBox(height: 10.0),
