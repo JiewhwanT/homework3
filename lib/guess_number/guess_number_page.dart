@@ -84,7 +84,7 @@ class _GuessPageState extends State<MyHomePage> {
             });
           },
           child: Container(
-            width: 60.0,
+            width: 55.0,
             height: 30.0,
             alignment: Alignment.center,
             decoration: BoxDecoration(
